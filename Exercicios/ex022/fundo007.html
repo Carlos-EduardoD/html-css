@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alinhamento vertical</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
         #container{
-            height: 94vh;
-            padding: 10px;
+            margin: auto;
+            position: relative;
+            height: 400px;
+            width: 600px;
             background: purple url(imagens/target001.png) no-repeat top left/100% 100%;
+            top: -50%;
         }
 
         #conteudo{
@@ -21,6 +29,8 @@
             top: 50%;
 
             transform: translate(-50%, -50%);
+
+            z-index: 1;
         }
     </style>
 </head>
