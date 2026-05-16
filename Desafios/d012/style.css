@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte01: "Alfa Slab One", serif;
+    --fonte02: Arial, Helvetica, sans-serif; 
+    --fonte03: "Combo", system-ui;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    font-family: var(--fonte01);
+    font-weight: normal;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+}
+
+header p{
+    font-family: var(--fonte02);
+    padding-top: 10px;
+}
+
+header a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section p{
+    margin: 50px 0 90px 30px;
+    font-family: var(--fonte03);
+    line-height: 50px;
+    font-size: 1.8em;
+}
